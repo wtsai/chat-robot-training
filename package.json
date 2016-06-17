@@ -1,0 +1,30 @@
+{
+  "name": "chat-robot-training",
+  "version": "0.0.1",
+  "description": "Examples for the chatting application.",
+  "main": "examples/stt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtsai/chat-robot-training.git"
+  },
+  "keywords": [
+    "chat",
+    "robot",
+    "stt",
+    "watson"
+  ],
+  "dependencies": {
+    "mic": "^2.1.1",
+    "watson-developer-cloud": "^1.9.2",
+    "wav": "^1.0.0"
+  },
+  "author": "Wesley Tsai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtsai/chat-robot-training/issues"
+  },
+  "homepage": "https://github.com/wtsai/chat-robot-training#readme"
+}
