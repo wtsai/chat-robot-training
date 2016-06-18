@@ -8,6 +8,9 @@ var sushi = {
   text: null,
   status: ''
 }
+var str_hello = '你好';
+var str_order = '我想要比目魚兩份';
+var str_check = '我要結帳';
 
 function messageProcess(data, callback) {
   if(data.entities.sushi&&data.entities.number){
@@ -61,7 +64,7 @@ function actionsProcess(callback) {
 };
 
 witai.init();
-witai.message('結帳', function(err, data){
+witai.message(str_order, function(err, data){
   if(data){
     messageProcess(data, function(err, done){
       actionsProcess(function(err, data, sentence){
