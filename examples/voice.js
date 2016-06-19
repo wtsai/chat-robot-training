@@ -11,9 +11,9 @@ var params = {
   key: 'd5c673a84b6b4b6798cfc2f64e3bbd3e',
   ie: 'UTF-8',
   src: reply_order,
-  r: 3, // The speech rate (speed): from -10 (slowest speed) up to 10 (fastest speed)
-  c: 'MP3', // Audio Codecs: MP3, WAV, AAC, OGG, CAF
-  f: '44khz_16bit_stereo', // Audio Formats: 8khz_8bit_mono, 8khz_16bit_stereo ....
+  r: 3,
+  c: 'MP3',
+  f: '44khz_16bit_stereo',
   hl: 'zh-tw'
 };
 
