@@ -9,7 +9,6 @@ var reply_order = '好的，請問還需要什麼。';
 var reply_check = '謝謝光臨，歡迎下次再來。';
 var params = {
   key: 'd5c673a84b6b4b6798cfc2f64e3bbd3e',
-  ie: 'UTF-8',
   src: reply_order,
   r: 3,
   c: 'MP3',
