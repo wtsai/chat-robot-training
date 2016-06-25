@@ -19,5 +19,5 @@ var iot_client = mqtt.connect('mqtt://' + IoT.domain +'.messaging.internetofthin
 
 iot_client.on('connect', function() {
   iot_client.publish('iot-2/evt/status/fmt/json', '{"d":{"status": "connected" }}');
-  iot_client.publish('iot-2/evt/I2C/fmt/string','hello');
+  iot_client.publish('iot-2/evt/Action/fmt/string','hello');
 });
